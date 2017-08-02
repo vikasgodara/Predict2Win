@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">853324432317-sftabkhuijscsketpl21t9ongg98dbu4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://predict2win-d3a37.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">853324432317</string>
+    <string name="google_api_key" translatable="false">AIzaSyAhPf0TVMn07elLfWEXhWHHLzB75UTJUPQ</string>
+    <string name="google_app_id" translatable="false">1:853324432317:android:738c611aeb07a607</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAhPf0TVMn07elLfWEXhWHHLzB75UTJUPQ</string>
+    <string name="google_storage_bucket" translatable="false">predict2win-d3a37.appspot.com</string>
+    <string name="project_id" translatable="false">predict2win-d3a37</string>
+</resources>

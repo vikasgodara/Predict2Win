@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "853324432317",
+    "firebase_url": "https://predict2win-d3a37.firebaseio.com",
+    "project_id": "predict2win-d3a37",
+    "storage_bucket": "predict2win-d3a37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853324432317:android:738c611aeb07a607",
+        "android_client_info": {
+          "package_name": "com.hello_world.vikas.predict2win"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853324432317-slb3kqh10jqg7m8ijavm94d0j6vivch1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hello_world.vikas.predict2win",
+            "certificate_hash": "e445e428d0430e44b88144c99a34cecf94eed8f3"
+          }
+        },
+        {
+          "client_id": "853324432317-sftabkhuijscsketpl21t9ongg98dbu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhPf0TVMn07elLfWEXhWHHLzB75UTJUPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853324432317-sftabkhuijscsketpl21t9ongg98dbu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

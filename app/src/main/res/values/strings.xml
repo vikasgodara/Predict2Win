@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Predict2Win</string>
+    <string name="login"><strong><b>LOG IN</b></strong></string>
+    <string name="signup"><strong><b>SIGN UP</b></strong></string>
+    <string name="facebook_app_id">105118573419002</string>
+    <string name="fb_login_protocol_scheme">fb105118573419002</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+
+        card_view:cardElevation="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#263238"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#37474f"
+                android:id="@+id/title"
+                android:padding="1dp"
+                android:textSize="11dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/windowBg"
+                android:text="CHAMPIONS TROPHY"
+                android:gravity="center_horizontal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
+                android:id="@+id/linear1"
+                android:layout_below="@+id/title">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/india_flag"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColorHighlight="#ffffff"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp"
+                    android:text="vs"
+                    android:layout_weight="0.9"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/sa_flag"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear2"
+
+
+                android:layout_marginTop="1dp"
+                android:gravity="bottom"
+                android:layout_below="@+id/linear1">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:id="@+id/team1"
+                    android:gravity="center_horizontal|bottom"
+                    android:textColor="#ffffff"
+                    android:text="INDIA"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:gravity="center_horizontal|bottom"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_weight="0.9"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/team2"
+                    android:textSize="10dp"
+                    android:gravity="center_horizontal|bottom"
+                    android:textColor="#ffffff"
+                    android:text="SOUTH AFRICA"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear3"
+
+
+                android:gravity="top"
+                android:layout_below="@+id/linear2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+
+                    android:id="@+id/stake1"
+                    android:gravity="center_horizontal|top"
+                    android:textColor="#ffffff"
+                    android:text="1.4X"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".2"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:gravity="center_horizontal|top"
+                    android:textColor="#ffffff"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_marginTop="6dp"
+
+                    android:id="@+id/stake2"
+                    android:layout_marginBottom="2dp"
+                    android:gravity="center_horizontal|top"
+                    android:textColor= "#ffff"
+                    android:text="10 : 19 : 44"
+                    android:background="#bf360c"
+                    android:layout_weight="0.5"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".2"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:gravity="center_horizontal|top"
+                    android:textColor="#ffffff"
+
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:gravity="center_horizontal|top"
+                    android:textColor="#ffffff"
+                    android:text="1.7X"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
